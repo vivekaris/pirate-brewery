@@ -32,6 +32,14 @@ For all other configuration items, please see the official Docker WordPress [Rea
 
 If you want to use it with docker-compose, you can use this **docker-compose.yml** as sample:
 
+create directory name myproject
+mkdir myproject
+cd myproject
+then
+create a file name #nano docker-compose.yml  and copy paste below code .
+
+
+
 ```
 version: '3.3'
 
@@ -62,5 +70,7 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_ROOT_PASSWORD: wordpress
 ```
+
+after that run: docker-compose up  in same directory.
 
 If you have any questions or want to report an issue, please do it on [GitHub](https://github.com/HardeepAsrani/pirate-brewery/).
